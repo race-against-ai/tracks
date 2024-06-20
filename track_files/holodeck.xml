@@ -11,8 +11,7 @@
         <Straight length="0.6"/>
         <Turn direction="right" radius="1.0" radian="185.0"/>
         <Straight length="2.8"/>
-        <Turn direction="left" radius="1.0" radian="110.0"/>
-        <Turn direction="left" radius="1.0" radian="45.0"/>
+        <Turn direction="left" radius="1.0" radian="155.0"/>
         <Straight length="2.77"/>
         <Turn direction="left" radius="1.0" radian="90.0"/>
     </Segments>
