@@ -1,0 +1,31 @@
+<TrackDefinition version="0.0.1">
+    <Size width="6.5" height="7.5"/>
+    <Origin x="0" y="0"/>
+    <Background color="#545454" opacity="1.0"/>
+    <Segments>
+        <Start x="6" y="1.5" direction_angle="90.0"/>
+        <Straight length="4.2"/>
+        <Turn direction="left" radius="1.25" radian="90.0"/>
+        <Straight length="3.3"/>
+        <Turn direction="left" radius="1" radian="200.0"/>
+		<Straight length="1.75"/>
+        <Turn direction="right" radius="1.25" radian="110.0"/>
+        <Straight length="1.75"/>
+        <Turn direction="right" radius="1.25" radian="180.0"/>
+        <Straight length="0.25"/>
+        <Turn direction="left" radius="1.1" radian="200.0"/>
+        <Straight length="1.25"/>
+        <Turn direction="left" radius="0.75" radian="62.0"/>
+		<ParkingArea length="2.200">
+                <RightLots>
+                    <ParkingLot start="0.0" depth="0.3" opening_ending_angle="40">
+                        <Spot type="free" length="0.8"/>
+                    </ParkingLot>
+                </RightLots>
+                <LeftLots>
+                </LeftLots>
+            </ParkingArea>
+        <Straight length="1"/>
+        <Turn direction="left" radius="1.162" radian="98.0"/>
+    </Segments>
+</TrackDefinition>
