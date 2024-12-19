@@ -1,22 +1,44 @@
-[![GitHub latest commit](https://badgen.net/github/last-commit/race-against-ai/raai_tracks)](https://GitHub.com/race-against-ai/raai_tracks/commit/)
+[![GitHub latest commit](https://badgen.net/github/last-commit/race-against-ai/raai_tracks)](https://GitHub.com/race-against-ai/raai_tracks/commit/)  
 
-# RAAI Tracks
+# Tracks  
 
-The **Track Generator** creates tracks for the car using the [Track Generator Tool](https://github.com/twyleg/track_generator).
+This repository contains tracks for **Holodeck** and **IdeenExpo 2024** generated using the [Track Generator Tool](https://github.com/twyleg/track_generator).  
 
-Tracks for **Holodeck** and **IdeenExpo 2024** are located in this repository.
+## Track Generator  
 
-To run the tool:
+The **Track Generator** is used to create tracks for the car.  
 
-  ```bash
-  python -m venv venv
-  source venv/bin/activate
-  pip install -r requirements.txt
-  track_generator generate_track_live TRACK_FILE
-  ```
+### How to Run the Tool  
 
-For more details, refer to the [Track Generator repository](https://github.com/twyleg/track_generator).
+Follow these steps to generate tracks:  
 
-<img src="output/holodeck/holodeck.svg" width="800"/>
+1. Set up a Python virtual environment:  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
+   ```  
 
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
 
+3. Generate the track:  
+   ```bash
+   track_generator generate_track_live TRACK_FILE
+   ```  
+
+For more information, refer to the [Track Generator repository](https://github.com/twyleg/track_generator).  
+
+## Available Tracks  
+
+### Holodeck  
+
+Track design for use in the **Holodeck** are located in the `output/holodeck/` directory.  
+
+Example:  
+<img src="output/holodeck/holodeck.svg" width="800"/>  
+
+### IdeenExpo 2024  
+
+Track created for the **IdeenExpo 2024** can be found in the `output/ideenexpo_2024/` directory.  
